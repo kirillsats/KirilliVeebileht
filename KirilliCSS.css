@@ -8,18 +8,17 @@ body {
     color: #333; /* Цвет текста по умолчанию */
 }
 
-header h1 {
+header {
     background-color: #2c3e50;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-
 h1, h2, h3, h4, h5, h6, p {
     margin: 0; /* Убираем отступы сверху и снизу у всех заголовков и абзацев */
     font-size: 16px; /* Одинаковый размер шрифта для всех элементов */
-    color: #FFFFFF; /* Все текстовые элементы одного цвета */
+    color: #333; /* Все текстовые элементы одного цвета */
 }
 
 h1 {
@@ -155,5 +154,3 @@ footer {
 .MVP a:hover {
     text-decoration: underline; /* Подчеркивание при наведении на ссылку */
 }
-
-
