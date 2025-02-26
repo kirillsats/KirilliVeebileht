@@ -79,7 +79,7 @@ footer {
 }
 
 /* Стиль для раздела MVP */
-.mvp {
+.MVP {
     background-color: #e9f7e9; /* Светлый фон */
     padding: 20px;
     margin: 20px 0;
@@ -88,24 +88,24 @@ footer {
     color: #333;
 }
 
-.mvp h2 {
+.MVP h2 {
     font-size: 24px;
     color: #2c3e50; /* Темный цвет для заголовка */
     margin-bottom: 15px;
 }
 
-.mvp p {
+.MVP p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
-.mvp a {
+.MVP a {
     color: #3498db; /* Синий цвет для ссылок */
     text-decoration: none;
 }
 
-.mvp a:hover {
+.MVP a:hover {
     text-decoration: underline; /* Подчеркивание при наведении */
 }
 
