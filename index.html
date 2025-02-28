@@ -35,5 +35,27 @@
     <p>Rohkem informatsiooni leiate artiklist: <a href="https://habr.com/ru/companies/productstar/articles/508892/" target="_blank">Loe rohkem MVP kohta</a></p>
 </div>
   </section>
+
+    <section class="git-remote">
+        <div class="git-remote">
+            <h2>Kuidas teha remote repo GitHubis?</h2>
+            <p>Kui soovid luua ja ühendada kaugrepo (remote repository) GitHubis, järgi neid samme:</p>
+            <h3>1. Loo uus repository GitHubis</h3>
+            <p>Mine GitHubi ja loo uus repository. Ära lisa README, .gitignore või License faili.</p>
+            <h3>2. Loo ja ühenda lokaalne repository</h3>
+            <pre>   <!--кодировка для сохрпнения пробелов-->
+                git init
+                git add .
+                git commit -m "Esimene commit"
+            </pre>
+            <h3>3. Lisa remote repository ja pushi andmed</h3>
+            <pre>
+                git remote add origin https://github.com/KASUTAJA/NIMI.git
+                git branch -M main
+                git push -u origin main
+            </pre>
+            <p>Asenda <code>KASUTAJA</code> oma GitHubi kasutajanimega ja <code>NIMI</code> repository nimega.</p>
+        </div>
+    </section>
 </body>
 </html>
