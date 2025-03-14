@@ -3,35 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Kirilli Veebileht</title>
-  <link rel="stylesheet" href="KirilliCSS.css">
+    <link rel="stylesheet" href="KirilliCSS.css">
 </head>
 <body>
-  <header>
+<header>
     <h1>Info minust</h1>
-  </header>
-   <section class="profile">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Avaleht</a></li>
+            <li><a href="mvp.html">MVP</a></li>
+            <li><a href="git-remote.html">Git Remote</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="profile">
     <div class="profile-photo">
-      <img src="Pildid/Peppa.jpeg" alt="Minu pilt">
+        <img src="Pildid/Peppa.jpeg" alt="Minu pilt">
     </div>
     <div class="profile-info">
-      <h2>Kirill Sats</h2>
-      <p><strong>Eriala:</strong> Noorem tarkvaarendaja</p>
-      <p><strong>Keeled:</strong> Praegu õpin eesti keel b2 tasemele, Inglise keel b1 tasemele ja Vene keel on minu emakeel.</p>
-      <p><strong>IT Tehnoloogiad:</strong> Olen töötanud CSS, HTML, PHP, Pyhon ja C#'iga.</p>
-      <p><strong>Oskused arvuti taga:</strong> Veebiarendus, Programmeerimine, Andmebaasiga töötamine ja Probleemide lahendamine.</p>
-      <p><strong>Minu parimad projektid:</strong> <a href="https://kirillsats23.thkit.ee/phpTund/content/andmebaas/konkurss/login.php" target="_blank">Konkurss</a></p>
-      <h4>1. Login: Admin. Parool: 12345</h4>
-      <h4>2. Login: Opilane. Parool: 54321</h4>
-      <p><strong>Minu portfoolio:</strong><a href="https://kirillsats23.thkit.ee/wp/" target="_blank">Wordpress</a></p>
+        <h2>Kirill Sats</h2>
+        <p><strong>Eriala:</strong> Noorem tarkvaarendaja</p>
+        <p><strong>Keeled:</strong> Praegu õpin eesti keel b2 tasemele, Inglise keel b1 tasemele ja Vene keel on minu emakeel.</p>
+        <p><strong>IT Tehnoloogiad:</strong> Olen töötanud CSS, HTML, PHP, Pyhon ja C#'iga.</p>
+        <p><strong>Oskused arvuti taga:</strong> Veebiarendus, Programmeerimine, Andmebaasiga töötamine ja Probleemide lahendamine.</p>
+        <p><strong>Minu parimad projektid:</strong> <a href="https://kirillsats23.thkit.ee/phpTund/content/andmebaas/konkurss/login.php" target="_blank">Konkurss</a></p>
+        <h4>1. Login: Admin. Parool: 12345</h4>
+        <h4>2. Login: Opilane. Parool: 54321</h4>
+        <p><strong>Minu portfoolio:</strong><a href="https://kirillsats23.thkit.ee/wp/" target="_blank">Wordpress</a></p>
     </div>
-  </section>
+</section>
 
-    <section class="MVP">
-    <h2>Mis on MVP (Minimum Viable Product)?</h2>
-    <p>MVP ehk minimaalne elujõuline toode on toode, mis sisaldab ainult neid funktsioone, mis on vajalikud idee testimiseks turul. See aitab vähendada arenduse kulusid ja lühendada aega turule jõudmiseks. MVP aitab kiiremini koguda tagasisidet kasutajatelt ja teha vajalikud muudatused enne täisfunktsionaalse toote loomist.</p>
-    <h3>Kuidas kasutada MVP oma IT-projektides?</h3>
-    <p>IT-projektides võib MVP-d kasutada, et kiiresti arendada ja turule viia toode, millel on ainult kõige olulisemad omadused. See aitab testida toote väärtust ja kasutajate nõudmisi, samas vältides suuri kulutusi arendusele enne, kui on teada, kas toode on edukas.</p>
-    <p>Rohkem informatsiooni leiate artiklist: <a href="https://habr.com/ru/companies/productstar/articles/508892/" target="_blank">Loe rohkem MVP kohta</a></p>
-  </section>
+
+<footer>
+    <p>&copy; Kirill Sats, <span id="year"></span></p>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
