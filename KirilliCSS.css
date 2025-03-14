@@ -106,6 +106,7 @@ footer {
 }
 
 .MVP h2 {
+
     font-size: 24px;
 
 
@@ -113,6 +114,17 @@ footer {
 
 .MVP h2 {
     font-size: 24px;
+
+
+
+    font-size: 24px;
+
+
+}
+
+.MVP h2 {
+    font-size: 24px;
+
 
 
     color: #2c3e50; /* Темный цвет для заголовка */
@@ -156,6 +168,7 @@ footer {
 .MVP a:hover {
     text-decoration: underline; /* Подчеркивание при наведении на ссылку */
 }
+
 
 
 /* Стиль для раздела с GitHub remote repo */
