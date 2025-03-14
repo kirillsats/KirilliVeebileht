@@ -113,7 +113,9 @@ footer {
 }
 
 .MVP h2 {
+
     font-size: 24px;
+
 
 
 
@@ -168,6 +170,7 @@ footer {
 .MVP a:hover {
     text-decoration: underline; /* Подчеркивание при наведении на ссылку */
 }
+
 
 
 
