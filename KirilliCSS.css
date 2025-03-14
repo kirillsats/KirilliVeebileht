@@ -15,7 +15,8 @@ header {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+
+ h2, h3, h4, h5, h6, p {
     margin: 0; /* Убираем отступы сверху и снизу у всех заголовков и абзацев */
     font-size: 16px; /* Одинаковый размер шрифта для всех элементов */
     color: #333; /* Все текстовые элементы одного цвета */
@@ -24,6 +25,7 @@ h1, h2, h3, h4, h5, h6, p {
 h1 {
     font-size: 32px; /* Крупный шрифт для заголовка */
     font-weight: bold;
+    color: #FFFFFF
 }
 
 h2, h3, h4, h5, h6 {
@@ -104,6 +106,19 @@ footer {
 }
 
 .MVP h2 {
+
+    font-size: 24px;
+
+
+}
+
+.MVP h2 {
+
+    font-size: 24px;
+
+
+
+
     font-size: 24px;
 
 
@@ -111,6 +126,7 @@ footer {
 
 .MVP h2 {
     font-size: 24px;
+
 
 
     color: #2c3e50; /* Темный цвет для заголовка */
@@ -154,3 +170,33 @@ footer {
 .MVP a:hover {
     text-decoration: underline; /* Подчеркивание при наведении на ссылку */
 }
+
+
+
+
+/* Стиль для раздела с GitHub remote repo */
+.git-remote {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.git-remote h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.git-remote pre {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
